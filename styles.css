@@ -37,13 +37,14 @@ body, html {
   .profile {
     margin-bottom: 30px;
   }
-  
+
   .profile-pic {
-    width: 150px; /* or any other size */
-    height: 150px; /* or any other size */
-    border-radius: 50%; /* this makes it round */
-    margin-bottom: 20px;
-    border: 3px solid #333; /* optional: adds a border around the image */
+    display: block;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin: 0 auto; /* Centers the image horizontally */
+    border: 3px solid #ffffff; /* Adds a white border around the image */
   }
 
 /* .linkedin { background-color: #0077b5; }
